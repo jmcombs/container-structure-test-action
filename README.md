@@ -1,6 +1,6 @@
 # Container Structure Test Action
 
-GitHub Action that enables automated testing of Containers with [Container Structure Tests](https://github.com/GoogleContainerTools/container-structure-test) in your CI/CD pipeline.[1]
+GitHub Action that enables automated testing of Containers with [Container Structure Tests](https://github.com/GoogleContainerTools/container-structure-test) in your CI/CD pipeline.[^1]
 
 This action will run on Linux runners on the `arm64` and `amd64` platforms. It also enables you to test multi-arch images by specifying the platform.
 
@@ -31,4 +31,4 @@ jobs:
           platform: linux/amd64
 ```
 
-[^1]: This project is a fork of an original project by [Plex Systems](https://github.com/plexsystems/container-structure-test-action)
+[^1]: This project is a fork of [container-structure-test-action](https://github.com/plexsystems/container-structure-test-action) by [Plex Systems](https://github.com/plexsystems/).
