@@ -1,4 +1,4 @@
-name: "Container Structure Test Action"
+name: "Container Structure Test"
 description: "Setup Container Structure Test in your GitHub workflows"
 author: "Jeremy Combs"
 
